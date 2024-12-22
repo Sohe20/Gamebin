@@ -6,6 +6,10 @@
 /out-tsc
 /bazel-out
 
+# Temporary folder
+/template
+
+
 # Node
 /node_modules
 npm-debug.log
