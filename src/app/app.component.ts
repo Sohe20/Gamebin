@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavComponent } from "./nav/nav.component";
 import { AuthModalComponent } from "./user/auth-modal/auth-modal.component";
+import { ModalService } from './services/modal.service';
 
 @Component({
   selector: 'app-root',
@@ -12,4 +13,10 @@ import { AuthModalComponent } from "./user/auth-modal/auth-modal.component";
 })
 export class AppComponent {
   title = 'GameBin';
+
+
+  constructor(){}
+
+
+ 
 }
